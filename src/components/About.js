@@ -287,7 +287,7 @@ const About = () => {
                       <span className='year'>
                         <i className='fa fa-calendar' />
                         <i className='fa fa-caret-right' />
-                        2012 - 2016
+                        2012 - 2017
                       </span>
                       <span className='d-block font-weight-400 uppercase'>
                         BS IN COMPUTER SCIENCE
