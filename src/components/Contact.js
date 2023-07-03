@@ -74,8 +74,8 @@ const Contact = () => {
                     {' '}
                     <span className='contact-title'>email</span>
                     <i className='fa fa-envelope-o fs-14' />
-                    <a href='mailto:sandrychuk1002@gmail.com' target='_blank' rel='noreferrer'>
-                      <span className='contact-content'>sandrychuk1002@gmail.com</span>
+                    <a href='mailto:stevenandrychuk96@gmail.com' target='_blank' rel='noreferrer'>
+                      <span className='contact-content'>stevenandrychuk96@gmail.com</span>
                     </a>
                   </h6>
                 </li>

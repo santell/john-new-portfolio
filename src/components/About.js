@@ -52,7 +52,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Nationality</span>
-                    Japanese
+                    Finnish
                   </h6>
                 </li>
                 <li>
@@ -78,8 +78,8 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className='font-weight-600'>Langages</span>
-                    English
+                    <span className='font-weight-600'>Languages</span>
+                    Finnish, English
                   </h6>
                 </li>
                 <li>
@@ -90,7 +90,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Email</span>
-                    <span>sandrychuk1002@gmail.com</span>
+                    <span>stevenandrychuk96@gmail.com</span>
                   </h6>
                 </li>
                 <li>
