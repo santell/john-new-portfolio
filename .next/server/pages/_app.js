@@ -1,286 +1,123 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 336:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_context_colorState__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/context/colorState */ \"./src/context/colorState.js\");\n/* harmony import */ var _src_context_navState__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/context/navState */ \"./src/context/navState.js\");\n/* harmony import */ var _src_layouts_PreLoader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/layouts/PreLoader */ \"./src/layouts/PreLoader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        type: \"text/css\",\n                        media: \"all\",\n                        href: \"css/bootstrap.min.css\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        type: \"text/css\",\n                        media: \"all\",\n                        href: \"css/jquery.animatedheadline.css\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        type: \"text/css\",\n                        media: \"all\",\n                        href: \"css/font-awesome.min.css\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 33,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        type: \"text/css\",\n                        media: \"all\",\n                        href: \"/public/css/plugins.css\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        type: \"text/css\",\n                        media: \"all\",\n                        href: \"css/style.css\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 45,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        type: \"text/css\",\n                        href: \"css/styleswitcher.css\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 51,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"John - Personal Portfolio\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                        lineNumber: 52,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_context_navState__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_context_colorState__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layouts_PreLoader__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {}, void 0, false, {\n                            fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                            lineNumber: 56,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                            ...pageProps\n                        }, void 0, false, {\n                            fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                            lineNumber: 57,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                    lineNumber: 55,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n                lineNumber: 54,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\pages\\\\_app.js\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBQ0k7QUFDa0I7QUFDSjtBQUNFO0FBQ2xCO0FBRS9CLFNBQVNLLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBRSxFQUFFO0lBQ3ZDLHFCQUNFLDhEQUFDTiwyQ0FBUTs7MEJBQ1AsOERBQUNELGtEQUFJOztrQ0FDSCw4REFBQ1EsTUFBSTt3QkFDSEMsSUFBSSxFQUFDLHVHQUF1Rzt3QkFDNUdDLEdBQUcsRUFBQyxZQUFZOzs7Ozs0QkFDaEI7a0NBQ0YsOERBQUNGLE1BQUk7d0JBQ0hDLElBQUksRUFBQyxtRUFBbUU7d0JBQ3hFQyxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2hCO2tDQUVGLDhEQUFDRixNQUFJO3dCQUNIRyxJQUFJLEVBQUMsVUFBVTt3QkFDZkMsS0FBSyxFQUFDLEtBQUs7d0JBQ1hILElBQUksRUFBQyx1QkFBdUI7d0JBQzVCQyxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2hCO2tDQUNGLDhEQUFDRixNQUFJO3dCQUNIRyxJQUFJLEVBQUMsVUFBVTt3QkFDZkMsS0FBSyxFQUFDLEtBQUs7d0JBQ1hILElBQUksRUFBQyxpQ0FBaUM7d0JBQ3RDQyxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2hCO2tDQUNGLDhEQUFDRixNQUFJO3dCQUNIRyxJQUFJLEVBQUMsVUFBVTt3QkFDZkMsS0FBSyxFQUFDLEtBQUs7d0JBQ1hILElBQUksRUFBQywwQkFBMEI7d0JBQy9CQyxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2hCO2tDQUNGLDhEQUFDRixNQUFJO3dCQUNIRyxJQUFJLEVBQUMsVUFBVTt3QkFDZkMsS0FBSyxFQUFDLEtBQUs7d0JBQ1hILElBQUksRUFBQyx5QkFBeUI7d0JBQzlCQyxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2hCO2tDQUNGLDhEQUFDRixNQUFJO3dCQUNIRyxJQUFJLEVBQUMsVUFBVTt3QkFDZkMsS0FBSyxFQUFDLEtBQUs7d0JBQ1hILElBQUksRUFBQyxlQUFlO3dCQUNwQkMsR0FBRyxFQUFDLFlBQVk7Ozs7OzRCQUNoQjtrQ0FDRiw4REFBQ0YsTUFBSTt3QkFBQ0UsR0FBRyxFQUFDLFlBQVk7d0JBQUNDLElBQUksRUFBQyxVQUFVO3dCQUFDRixJQUFJLEVBQUMsdUJBQXVCOzs7Ozs0QkFBRztrQ0FDdEUsOERBQUNJLE9BQUs7a0NBQUMsMkJBQXlCOzs7Ozs0QkFBUTs7Ozs7O29CQUNuQzswQkFDUCw4REFBQ1YsNkRBQVE7MEJBQ1AsNEVBQUNELCtEQUFVOztzQ0FDVCw4REFBQ0UsOERBQVM7Ozs7Z0NBQUc7c0NBQ2IsOERBQUNFLFNBQVM7NEJBQUUsR0FBR0MsU0FBUzs7Ozs7Z0NBQUk7Ozs7Ozt3QkFDakI7Ozs7O29CQUNKOzs7Ozs7WUFDRixDQUNYO0NBQ0g7QUFFRCxpRUFBZUYsS0FBSyxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vam9obi1yZWFjdC8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XHJcbmltcG9ydCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBDb2xvclN0YXRlIGZyb20gXCIuLi9zcmMvY29udGV4dC9jb2xvclN0YXRlXCI7XHJcbmltcG9ydCBOYXZTdGF0ZSBmcm9tIFwiLi4vc3JjL2NvbnRleHQvbmF2U3RhdGVcIjtcclxuaW1wb3J0IFByZUxvYWRlciBmcm9tIFwiLi4vc3JjL2xheW91dHMvUHJlTG9hZGVyXCI7XHJcbmltcG9ydCBcIi4uL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xyXG5cclxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxGcmFnbWVudD5cclxuICAgICAgPEhlYWQ+XHJcbiAgICAgICAgPGxpbmtcclxuICAgICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UG9wcGluczo0MDAsNDAwaSw1MDAsNTAwaSw2MDAsNjAwaSw3MDAsNzAwaSw4MDAsODAwaSw5MDAsOTAwaVwiXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU9wZW4rU2FuczozMDAsNDAwLDYwMCw3MDBcIlxyXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgLz5cclxuICAgICAgICB7LyogVGVtcGxhdGUgQ1NTIEZpbGVzICovfVxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxyXG4gICAgICAgICAgaHJlZj1cImNzcy9ib290c3RyYXAubWluLmNzc1wiXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxyXG4gICAgICAgICAgaHJlZj1cImNzcy9qcXVlcnkuYW5pbWF0ZWRoZWFkbGluZS5jc3NcIlxyXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgLz5cclxuICAgICAgICA8bGlua1xyXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgICAgIGhyZWY9XCJjc3MvZm9udC1hd2Vzb21lLm1pbi5jc3NcIlxyXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgLz5cclxuICAgICAgICA8bGlua1xyXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgICAgIGhyZWY9XCIvcHVibGljL2Nzcy9wbHVnaW5zLmNzc1wiXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxyXG4gICAgICAgICAgaHJlZj1cImNzcy9zdHlsZS5jc3NcIlxyXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgLz5cclxuICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgdHlwZT1cInRleHQvY3NzXCIgaHJlZj1cImNzcy9zdHlsZXN3aXRjaGVyLmNzc1wiIC8+XHJcbiAgICAgICAgPHRpdGxlPkpvaG4gLSBQZXJzb25hbCBQb3J0Zm9saW88L3RpdGxlPlxyXG4gICAgICA8L0hlYWQ+XHJcbiAgICAgIDxOYXZTdGF0ZT5cclxuICAgICAgICA8Q29sb3JTdGF0ZT5cclxuICAgICAgICAgIDxQcmVMb2FkZXIgLz5cclxuICAgICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cclxuICAgICAgICA8L0NvbG9yU3RhdGU+XHJcbiAgICAgIDwvTmF2U3RhdGU+XHJcbiAgICA8L0ZyYWdtZW50PlxyXG4gICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IE15QXBwO1xyXG4iXSwibmFtZXMiOlsiSGVhZCIsIkZyYWdtZW50IiwiQ29sb3JTdGF0ZSIsIk5hdlN0YXRlIiwiUHJlTG9hZGVyIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJsaW5rIiwiaHJlZiIsInJlbCIsInR5cGUiLCJtZWRpYSIsInRpdGxlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "next/head"
-var head_ = __webpack_require__(968);
-var head_default = /*#__PURE__*/__webpack_require__.n(head_);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./src/context/colorContext.js
-var colorContext = __webpack_require__(101);
-;// CONCATENATED MODULE: ./src/context/colorState.js
+/***/ "./src/context/colorContext.js":
+/*!*************************************!*\
+  !*** ./src/context/colorContext.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst ColorContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ColorContext);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dC9jb2xvckNvbnRleHQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQXNDO0FBQ3RDLE1BQU1DLFlBQVksaUJBQUdELG9EQUFhLEVBQUU7QUFDcEMsaUVBQWVDLFlBQVksRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2pvaG4tcmVhY3QvLi9zcmMvY29udGV4dC9jb2xvckNvbnRleHQuanM/ZWI5YyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVDb250ZXh0IH0gZnJvbSBcInJlYWN0XCI7XHJcbmNvbnN0IENvbG9yQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoKTtcclxuZXhwb3J0IGRlZmF1bHQgQ29sb3JDb250ZXh0O1xyXG4iXSwibmFtZXMiOlsiY3JlYXRlQ29udGV4dCIsIkNvbG9yQ29udGV4dCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/context/colorContext.js\n");
 
+/***/ }),
 
-const type = {
-    COLOR: "NAV"
-};
-const navReducer = (state, action)=>{
-    switch(action.type){
-        case type.COLOR:
-            return {
-                ...state,
-                color: action.payload
-            };
-        default:
-            return state;
-    }
-};
-const ColorState = (props)=>{
-    const initialState = {
-        color: "yellowgreen"
-    };
-    const { 0: state , 1: dispatch  } = (0,external_react_.useReducer)(navReducer, initialState);
-    const changeColor = (value)=>{
-        dispatch({
-            type: type.COLOR,
-            payload: value
-        });
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx(colorContext/* default.Provider */.Z.Provider, {
-        value: {
-            changeColor: changeColor,
-            color: state.color
-        },
-        children: props.children
-    });
-};
-/* harmony default export */ const colorState = (ColorState);
+/***/ "./src/context/colorState.js":
+/*!***********************************!*\
+  !*** ./src/context/colorState.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// EXTERNAL MODULE: ./src/context/navContext.js
-var navContext = __webpack_require__(6333);
-;// CONCATENATED MODULE: ./src/context/navState.js
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _colorContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colorContext */ \"./src/context/colorContext.js\");\n\n\n\nconst type = {\n    COLOR: \"NAV\"\n};\nconst navReducer = (state, action)=>{\n    switch(action.type){\n        case type.COLOR:\n            return {\n                ...state,\n                color: action.payload\n            };\n        default:\n            return state;\n    }\n};\nconst ColorState = (props)=>{\n    const initialState = {\n        color: \"yellowgreen\"\n    };\n    const { 0: state , 1: dispatch  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useReducer)(navReducer, initialState);\n    const changeColor = (value)=>{\n        dispatch({\n            type: type.COLOR,\n            payload: value\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_colorContext__WEBPACK_IMPORTED_MODULE_2__[\"default\"].Provider, {\n        value: {\n            changeColor: changeColor,\n            color: state.color\n        },\n        children: props.children\n    }, void 0, false, {\n        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\context\\\\colorState.js\",\n        lineNumber: 34,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ColorState);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dC9jb2xvclN0YXRlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQW1DO0FBQ087QUFFMUMsTUFBTUUsSUFBSSxHQUFHO0lBQ1hDLEtBQUssRUFBRSxLQUFLO0NBQ2I7QUFFRCxNQUFNQyxVQUFVLEdBQUcsQ0FBQ0MsS0FBSyxFQUFFQyxNQUFNLEdBQUs7SUFDcEMsT0FBUUEsTUFBTSxDQUFDSixJQUFJO1FBQ2pCLEtBQUtBLElBQUksQ0FBQ0MsS0FBSztZQUNiLE9BQU87Z0JBQ0wsR0FBR0UsS0FBSztnQkFDUkUsS0FBSyxFQUFFRCxNQUFNLENBQUNFLE9BQU87YUFDdEIsQ0FBQztRQUVKO1lBQ0UsT0FBT0gsS0FBSyxDQUFDO0tBQ2hCO0NBQ0Y7QUFFRCxNQUFNSSxVQUFVLEdBQUcsQ0FBQ0MsS0FBSyxHQUFLO0lBQzVCLE1BQU1DLFlBQVksR0FBRztRQUNuQkosS0FBSyxFQUFFLGFBQWE7S0FDckI7SUFDRCxNQUFNLEtBQUNGLEtBQUssTUFBRU8sUUFBUSxNQUFJWixpREFBVSxDQUFDSSxVQUFVLEVBQUVPLFlBQVksQ0FBQztJQUU5RCxNQUFNRSxXQUFXLEdBQUcsQ0FBQ0MsS0FBSyxHQUFLO1FBQzdCRixRQUFRLENBQUM7WUFDUFYsSUFBSSxFQUFFQSxJQUFJLENBQUNDLEtBQUs7WUFDaEJLLE9BQU8sRUFBRU0sS0FBSztTQUNmLENBQUMsQ0FBQztLQUNKO0lBQ0QscUJBQ0UsOERBQUNiLDhEQUFxQjtRQUNwQmEsS0FBSyxFQUFFO1lBQ0xELFdBQVcsRUFBRUEsV0FBVztZQUN4Qk4sS0FBSyxFQUFFRixLQUFLLENBQUNFLEtBQUs7U0FDbkI7a0JBRUFHLEtBQUssQ0FBQ00sUUFBUTs7Ozs7aUJBQ08sQ0FDeEI7Q0FDSDtBQUVELGlFQUFlUCxVQUFVLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9qb2huLXJlYWN0Ly4vc3JjL2NvbnRleHQvY29sb3JTdGF0ZS5qcz9jY2ZiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZVJlZHVjZXIgfSBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBDb2xvckNvbnRleHQgZnJvbSAnLi9jb2xvckNvbnRleHQnO1xyXG5cclxuY29uc3QgdHlwZSA9IHtcclxuICBDT0xPUjogJ05BVicsXHJcbn07XHJcblxyXG5jb25zdCBuYXZSZWR1Y2VyID0gKHN0YXRlLCBhY3Rpb24pID0+IHtcclxuICBzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XHJcbiAgICBjYXNlIHR5cGUuQ09MT1I6XHJcbiAgICAgIHJldHVybiB7XHJcbiAgICAgICAgLi4uc3RhdGUsXHJcbiAgICAgICAgY29sb3I6IGFjdGlvbi5wYXlsb2FkLFxyXG4gICAgICB9O1xyXG5cclxuICAgIGRlZmF1bHQ6XHJcbiAgICAgIHJldHVybiBzdGF0ZTtcclxuICB9XHJcbn07XHJcblxyXG5jb25zdCBDb2xvclN0YXRlID0gKHByb3BzKSA9PiB7XHJcbiAgY29uc3QgaW5pdGlhbFN0YXRlID0ge1xyXG4gICAgY29sb3I6ICd5ZWxsb3dncmVlbicsXHJcbiAgfTtcclxuICBjb25zdCBbc3RhdGUsIGRpc3BhdGNoXSA9IHVzZVJlZHVjZXIobmF2UmVkdWNlciwgaW5pdGlhbFN0YXRlKTtcclxuXHJcbiAgY29uc3QgY2hhbmdlQ29sb3IgPSAodmFsdWUpID0+IHtcclxuICAgIGRpc3BhdGNoKHtcclxuICAgICAgdHlwZTogdHlwZS5DT0xPUixcclxuICAgICAgcGF5bG9hZDogdmFsdWUsXHJcbiAgICB9KTtcclxuICB9O1xyXG4gIHJldHVybiAoXHJcbiAgICA8Q29sb3JDb250ZXh0LlByb3ZpZGVyXHJcbiAgICAgIHZhbHVlPXt7XHJcbiAgICAgICAgY2hhbmdlQ29sb3I6IGNoYW5nZUNvbG9yLFxyXG4gICAgICAgIGNvbG9yOiBzdGF0ZS5jb2xvcixcclxuICAgICAgfX1cclxuICAgID5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgPC9Db2xvckNvbnRleHQuUHJvdmlkZXI+XHJcbiAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IENvbG9yU3RhdGU7XHJcbiJdLCJuYW1lcyI6WyJ1c2VSZWR1Y2VyIiwiQ29sb3JDb250ZXh0IiwidHlwZSIsIkNPTE9SIiwibmF2UmVkdWNlciIsInN0YXRlIiwiYWN0aW9uIiwiY29sb3IiLCJwYXlsb2FkIiwiQ29sb3JTdGF0ZSIsInByb3BzIiwiaW5pdGlhbFN0YXRlIiwiZGlzcGF0Y2giLCJjaGFuZ2VDb2xvciIsInZhbHVlIiwiUHJvdmlkZXIiLCJjaGlsZHJlbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/context/colorState.js\n");
 
+/***/ }),
 
+/***/ "./src/context/navContext.js":
+/*!***********************************!*\
+  !*** ./src/context/navContext.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-const navState_type = {
-    NAV: "NAV",
-    MOBILE_MENU: "MOBILE_MENU"
-};
-const navState_navReducer = (state, action)=>{
-    switch(action.type){
-        case navState_type.NAV:
-            return {
-                ...state,
-                nav: action.payload
-            };
-        case navState_type.MOBILE_MENU:
-            return {
-                ...state,
-                mobileMenu: action.payload
-            };
-        default:
-            return state;
-    }
-};
-const NavState = (props)=>{
-    const initialState = {
-        nav: "home",
-        mobileMenu: false
-    };
-    const { 0: state , 1: dispatch  } = (0,external_react_.useReducer)(navState_navReducer, initialState);
-    const changeNav = (value)=>{
-        dispatch({
-            type: navState_type.NAV,
-            payload: value
-        });
-    };
-    const changeMobileMenu = (value)=>{
-        console.log(value);
-        dispatch({
-            type: navState_type.MOBILE_MENU,
-            payload: value
-        });
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx(navContext/* default.Provider */.Z.Provider, {
-        value: {
-            changeNav: changeNav,
-            nav: state.nav,
-            mobileMenu: state.mobileMenu,
-            changeMobileMenu: changeMobileMenu
-        },
-        children: props.children
-    });
-};
-/* harmony default export */ const navState = (NavState);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst NavContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavContext);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dC9uYXZDb250ZXh0LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFzQztBQUN0QyxNQUFNQyxVQUFVLGlCQUFHRCxvREFBYSxFQUFFO0FBQ2xDLGlFQUFlQyxVQUFVLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9qb2huLXJlYWN0Ly4vc3JjL2NvbnRleHQvbmF2Q29udGV4dC5qcz81MWNiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUNvbnRleHQgfSBmcm9tIFwicmVhY3RcIjtcclxuY29uc3QgTmF2Q29udGV4dCA9IGNyZWF0ZUNvbnRleHQoKTtcclxuZXhwb3J0IGRlZmF1bHQgTmF2Q29udGV4dDtcclxuIl0sIm5hbWVzIjpbImNyZWF0ZUNvbnRleHQiLCJOYXZDb250ZXh0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/context/navContext.js\n");
 
-;// CONCATENATED MODULE: ./src/layouts/PreLoader.js
+/***/ }),
 
+/***/ "./src/context/navState.js":
+/*!*********************************!*\
+  !*** ./src/context/navState.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-const PreLoader = ()=>{
-    const { 0: loaded , 1: setLoaded  } = (0,external_react_.useState)(false);
-    (0,external_react_.useEffect)(()=>{
-        setTimeout(()=>{
-            setLoaded(true);
-        }, 2000);
-    });
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: `preloader ${loaded ? "loaded" : ""}`,
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "preloader-container",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                    children: "John"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    id: "progress-line-container",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "progress-line"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                    children: "Pope"
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const layouts_PreLoader = (PreLoader); // loaded
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _navContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navContext */ \"./src/context/navContext.js\");\n\n\n\nconst type = {\n    NAV: \"NAV\",\n    MOBILE_MENU: \"MOBILE_MENU\"\n};\nconst navReducer = (state, action)=>{\n    switch(action.type){\n        case type.NAV:\n            return {\n                ...state,\n                nav: action.payload\n            };\n        case type.MOBILE_MENU:\n            return {\n                ...state,\n                mobileMenu: action.payload\n            };\n        default:\n            return state;\n    }\n};\nconst NavState = (props)=>{\n    const initialState = {\n        nav: \"home\",\n        mobileMenu: false\n    };\n    const { 0: state , 1: dispatch  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useReducer)(navReducer, initialState);\n    const changeNav = (value)=>{\n        dispatch({\n            type: type.NAV,\n            payload: value\n        });\n    };\n    const changeMobileMenu = (value)=>{\n        console.log(value);\n        dispatch({\n            type: type.MOBILE_MENU,\n            payload: value\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navContext__WEBPACK_IMPORTED_MODULE_2__[\"default\"].Provider, {\n        value: {\n            changeNav: changeNav,\n            nav: state.nav,\n            mobileMenu: state.mobileMenu,\n            changeMobileMenu: changeMobileMenu\n        },\n        children: props.children\n    }, void 0, false, {\n        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\context\\\\navState.js\",\n        lineNumber: 48,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavState);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29udGV4dC9uYXZTdGF0ZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUFtQztBQUNHO0FBRXRDLE1BQU1FLElBQUksR0FBRztJQUNYQyxHQUFHLEVBQUUsS0FBSztJQUNWQyxXQUFXLEVBQUUsYUFBYTtDQUMzQjtBQUVELE1BQU1DLFVBQVUsR0FBRyxDQUFDQyxLQUFLLEVBQUVDLE1BQU0sR0FBSztJQUNwQyxPQUFRQSxNQUFNLENBQUNMLElBQUk7UUFDakIsS0FBS0EsSUFBSSxDQUFDQyxHQUFHO1lBQ1gsT0FBTztnQkFDTCxHQUFHRyxLQUFLO2dCQUNSRSxHQUFHLEVBQUVELE1BQU0sQ0FBQ0UsT0FBTzthQUNwQixDQUFDO1FBQ0osS0FBS1AsSUFBSSxDQUFDRSxXQUFXO1lBQ25CLE9BQU87Z0JBQ0wsR0FBR0UsS0FBSztnQkFDUkksVUFBVSxFQUFFSCxNQUFNLENBQUNFLE9BQU87YUFDM0IsQ0FBQztRQUVKO1lBQ0UsT0FBT0gsS0FBSyxDQUFDO0tBQ2hCO0NBQ0Y7QUFFRCxNQUFNSyxRQUFRLEdBQUcsQ0FBQ0MsS0FBSyxHQUFLO0lBQzFCLE1BQU1DLFlBQVksR0FBRztRQUNuQkwsR0FBRyxFQUFFLE1BQU07UUFDWEUsVUFBVSxFQUFFLEtBQUs7S0FDbEI7SUFDRCxNQUFNLEtBQUNKLEtBQUssTUFBRVEsUUFBUSxNQUFJZCxpREFBVSxDQUFDSyxVQUFVLEVBQUVRLFlBQVksQ0FBQztJQUU5RCxNQUFNRSxTQUFTLEdBQUcsQ0FBQ0MsS0FBSyxHQUFLO1FBQzNCRixRQUFRLENBQUM7WUFDUFosSUFBSSxFQUFFQSxJQUFJLENBQUNDLEdBQUc7WUFDZE0sT0FBTyxFQUFFTyxLQUFLO1NBQ2YsQ0FBQyxDQUFDO0tBQ0o7SUFDRCxNQUFNQyxnQkFBZ0IsR0FBRyxDQUFDRCxLQUFLLEdBQUs7UUFDbENFLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDSCxLQUFLLENBQUMsQ0FBQztRQUNuQkYsUUFBUSxDQUFDO1lBQ1BaLElBQUksRUFBRUEsSUFBSSxDQUFDRSxXQUFXO1lBQ3RCSyxPQUFPLEVBQUVPLEtBQUs7U0FDZixDQUFDLENBQUM7S0FDSjtJQUNELHFCQUNFLDhEQUFDZiw0REFBbUI7UUFDbEJlLEtBQUssRUFBRTtZQUNMRCxTQUFTLEVBQUVBLFNBQVM7WUFDcEJQLEdBQUcsRUFBRUYsS0FBSyxDQUFDRSxHQUFHO1lBQ2RFLFVBQVUsRUFBRUosS0FBSyxDQUFDSSxVQUFVO1lBQzVCTyxnQkFBZ0IsRUFBRUEsZ0JBQWdCO1NBQ25DO2tCQUVBTCxLQUFLLENBQUNTLFFBQVE7Ozs7O2lCQUNLLENBQ3RCO0NBQ0g7QUFFRCxpRUFBZVYsUUFBUSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vam9obi1yZWFjdC8uL3NyYy9jb250ZXh0L25hdlN0YXRlLmpzP2Y1MDIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlUmVkdWNlciB9IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgTmF2Q29udGV4dCBmcm9tIFwiLi9uYXZDb250ZXh0XCI7XHJcblxyXG5jb25zdCB0eXBlID0ge1xyXG4gIE5BVjogXCJOQVZcIixcclxuICBNT0JJTEVfTUVOVTogXCJNT0JJTEVfTUVOVVwiLFxyXG59O1xyXG5cclxuY29uc3QgbmF2UmVkdWNlciA9IChzdGF0ZSwgYWN0aW9uKSA9PiB7XHJcbiAgc3dpdGNoIChhY3Rpb24udHlwZSkge1xyXG4gICAgY2FzZSB0eXBlLk5BVjpcclxuICAgICAgcmV0dXJuIHtcclxuICAgICAgICAuLi5zdGF0ZSxcclxuICAgICAgICBuYXY6IGFjdGlvbi5wYXlsb2FkLFxyXG4gICAgICB9O1xyXG4gICAgY2FzZSB0eXBlLk1PQklMRV9NRU5VOlxyXG4gICAgICByZXR1cm4ge1xyXG4gICAgICAgIC4uLnN0YXRlLFxyXG4gICAgICAgIG1vYmlsZU1lbnU6IGFjdGlvbi5wYXlsb2FkLFxyXG4gICAgICB9O1xyXG5cclxuICAgIGRlZmF1bHQ6XHJcbiAgICAgIHJldHVybiBzdGF0ZTtcclxuICB9XHJcbn07XHJcblxyXG5jb25zdCBOYXZTdGF0ZSA9IChwcm9wcykgPT4ge1xyXG4gIGNvbnN0IGluaXRpYWxTdGF0ZSA9IHtcclxuICAgIG5hdjogXCJob21lXCIsXHJcbiAgICBtb2JpbGVNZW51OiBmYWxzZSxcclxuICB9O1xyXG4gIGNvbnN0IFtzdGF0ZSwgZGlzcGF0Y2hdID0gdXNlUmVkdWNlcihuYXZSZWR1Y2VyLCBpbml0aWFsU3RhdGUpO1xyXG5cclxuICBjb25zdCBjaGFuZ2VOYXYgPSAodmFsdWUpID0+IHtcclxuICAgIGRpc3BhdGNoKHtcclxuICAgICAgdHlwZTogdHlwZS5OQVYsXHJcbiAgICAgIHBheWxvYWQ6IHZhbHVlLFxyXG4gICAgfSk7XHJcbiAgfTtcclxuICBjb25zdCBjaGFuZ2VNb2JpbGVNZW51ID0gKHZhbHVlKSA9PiB7XHJcbiAgICBjb25zb2xlLmxvZyh2YWx1ZSk7XHJcbiAgICBkaXNwYXRjaCh7XHJcbiAgICAgIHR5cGU6IHR5cGUuTU9CSUxFX01FTlUsXHJcbiAgICAgIHBheWxvYWQ6IHZhbHVlLFxyXG4gICAgfSk7XHJcbiAgfTtcclxuICByZXR1cm4gKFxyXG4gICAgPE5hdkNvbnRleHQuUHJvdmlkZXJcclxuICAgICAgdmFsdWU9e3tcclxuICAgICAgICBjaGFuZ2VOYXY6IGNoYW5nZU5hdixcclxuICAgICAgICBuYXY6IHN0YXRlLm5hdixcclxuICAgICAgICBtb2JpbGVNZW51OiBzdGF0ZS5tb2JpbGVNZW51LFxyXG4gICAgICAgIGNoYW5nZU1vYmlsZU1lbnU6IGNoYW5nZU1vYmlsZU1lbnUsXHJcbiAgICAgIH19XHJcbiAgICA+XHJcbiAgICAgIHtwcm9wcy5jaGlsZHJlbn1cclxuICAgIDwvTmF2Q29udGV4dC5Qcm92aWRlcj5cclxuICApO1xyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTmF2U3RhdGU7XHJcbiJdLCJuYW1lcyI6WyJ1c2VSZWR1Y2VyIiwiTmF2Q29udGV4dCIsInR5cGUiLCJOQVYiLCJNT0JJTEVfTUVOVSIsIm5hdlJlZHVjZXIiLCJzdGF0ZSIsImFjdGlvbiIsIm5hdiIsInBheWxvYWQiLCJtb2JpbGVNZW51IiwiTmF2U3RhdGUiLCJwcm9wcyIsImluaXRpYWxTdGF0ZSIsImRpc3BhdGNoIiwiY2hhbmdlTmF2IiwidmFsdWUiLCJjaGFuZ2VNb2JpbGVNZW51IiwiY29uc29sZSIsImxvZyIsIlByb3ZpZGVyIiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/context/navState.js\n");
 
-;// CONCATENATED MODULE: ./pages/_app.js
+/***/ }),
 
+/***/ "./src/layouts/PreLoader.js":
+/*!**********************************!*\
+  !*** ./src/layouts/PreLoader.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst PreLoader = ()=>{\n    const { 0: loaded , 1: setLoaded  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoaded(true);\n        }, 2000);\n    });\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: `preloader ${loaded ? \"loaded\" : \"\"}`,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"preloader-container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                    children: \"John\"\n                }, void 0, false, {\n                    fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n                    lineNumber: 14,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    id: \"progress-line-container\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"progress-line\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n                        lineNumber: 16,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n                    lineNumber: 15,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                    children: \"Pope\"\n                }, void 0, false, {\n                    fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n                    lineNumber: 18,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n            lineNumber: 13,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"D:\\\\portfolio-sample\\\\john-new-portofolio\\\\src\\\\layouts\\\\PreLoader.js\",\n        lineNumber: 12,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PreLoader); // loaded\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0cy9QcmVMb2FkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUE0QztBQUU1QyxNQUFNRSxTQUFTLEdBQUcsSUFBTTtJQUN0QixNQUFNLEtBQUNDLE1BQU0sTUFBRUMsU0FBUyxNQUFJSCwrQ0FBUSxDQUFDLEtBQUssQ0FBQztJQUMzQ0QsZ0RBQVMsQ0FBQyxJQUFNO1FBQ2RLLFVBQVUsQ0FBQyxJQUFNO1lBQ2ZELFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztTQUNqQixFQUFFLElBQUksQ0FBQyxDQUFDO0tBQ1YsQ0FBQyxDQUFDO0lBRUgscUJBQ0UsOERBQUNFLEtBQUc7UUFBQ0MsU0FBUyxFQUFFLENBQUMsVUFBVSxFQUFFSixNQUFNLEdBQUcsUUFBUSxHQUFHLEVBQUUsQ0FBQyxDQUFDO2tCQUNuRCw0RUFBQ0csS0FBRztZQUFDQyxTQUFTLEVBQUMscUJBQXFCOzs4QkFDbEMsOERBQUNDLElBQUU7OEJBQUMsTUFBSTs7Ozs7NkJBQUs7OEJBQ2IsOERBQUNGLEtBQUc7b0JBQUNHLEVBQUUsRUFBQyx5QkFBeUI7OEJBQy9CLDRFQUFDSCxLQUFHO3dCQUFDQyxTQUFTLEVBQUMsZUFBZTs7Ozs7aUNBQUc7Ozs7OzZCQUM3Qjs4QkFDTiw4REFBQ0MsSUFBRTs4QkFBQyxNQUFJOzs7Ozs2QkFBSzs7Ozs7O3FCQUNUOzs7OztpQkFDRixDQUNOO0NBQ0g7QUFDRCxpRUFBZU4sU0FBUyxFQUFDLENBQ3pCLFNBQVMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9qb2huLXJlYWN0Ly4vc3JjL2xheW91dHMvUHJlTG9hZGVyLmpzP2NjNzkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcclxuXHJcbmNvbnN0IFByZUxvYWRlciA9ICgpID0+IHtcclxuICBjb25zdCBbbG9hZGVkLCBzZXRMb2FkZWRdID0gdXNlU3RhdGUoZmFsc2UpO1xyXG4gIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICBzZXRUaW1lb3V0KCgpID0+IHtcclxuICAgICAgc2V0TG9hZGVkKHRydWUpO1xyXG4gICAgfSwgMjAwMCk7XHJcbiAgfSk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT17YHByZWxvYWRlciAke2xvYWRlZCA/ICdsb2FkZWQnIDogJyd9YH0+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPSdwcmVsb2FkZXItY29udGFpbmVyJz5cclxuICAgICAgICA8aDE+Sm9objwvaDE+XHJcbiAgICAgICAgPGRpdiBpZD0ncHJvZ3Jlc3MtbGluZS1jb250YWluZXInPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9J3Byb2dyZXNzLWxpbmUnIC8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGgxPlBvcGU8L2gxPlxyXG4gICAgICA8L2Rpdj5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IFByZUxvYWRlcjtcclxuLy8gbG9hZGVkXHJcbiJdLCJuYW1lcyI6WyJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsIlByZUxvYWRlciIsImxvYWRlZCIsInNldExvYWRlZCIsInNldFRpbWVvdXQiLCJkaXYiLCJjbGFzc05hbWUiLCJoMSIsImlkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/layouts/PreLoader.js\n");
 
+/***/ }),
 
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-
-
-function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        href: "https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        type: "text/css",
-                        media: "all",
-                        href: "css/bootstrap.min.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        type: "text/css",
-                        media: "all",
-                        href: "css/jquery.animatedheadline.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        type: "text/css",
-                        media: "all",
-                        href: "css/font-awesome.min.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        type: "text/css",
-                        media: "all",
-                        href: "/public/css/plugins.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        type: "text/css",
-                        media: "all",
-                        href: "css/style.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        type: "text/css",
-                        href: "css/styleswitcher.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "John - Personal Portfolio"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(navState, {
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(colorState, {
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(layouts_PreLoader, {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                            ...pageProps
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 101:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-const ColorContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ColorContext);
-
-
-/***/ }),
-
-/***/ 6333:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-const NavContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavContext);
-
-
-/***/ }),
-
-/***/ 968:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -291,7 +128,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(336));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

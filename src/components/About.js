@@ -42,7 +42,7 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className='font-weight-600'>Birthdate</span>2 Oct 1994
+                    <span className='font-weight-600'>Birthdate</span>8 Oct 1994
                   </h6>
                 </li>
                 <li>
@@ -98,7 +98,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Telegram</span>
-                    <a href='https://t.me/kkdragondev1008'>Dragon Dev</a>
+                    <a href='https://t.me/JohnPope1008'>JohnPope1008</a>
                   </h6>
                 </li>
               </ul>

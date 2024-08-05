@@ -81,10 +81,10 @@ const Contact = () => {
                 </li>
                 <li>
                   <h6 className='font-weight-600'>
-                    <span className='contact-title'>Telgram</span>
-                    <i className='fa fa-telegram' />
-                    <a href='https://t.me/kkdragondev1008'>
-                      <span className='contact-content'>Dragon Dev</span>
+                    <span className='contact-title'>GitHub</span>
+                    <i className='fa fa-github' />
+                    <a href='https://github.com/santell'>
+                      <span className='contact-content'>santell</span>
                     </a>
                   </h6>
                 </li>
@@ -95,18 +95,18 @@ const Contact = () => {
                 <h6 className='font-weight-600 uppercase'>Social Profiles</h6>
                 <ul className='list-inline social social-intro text-center p-none'>
                   <li className='facebook'>
-                    <a title='Telegram' href='https://t.me/kkdragondev1008'>
+                    <a title='Telegram' href='https://t.me/JohnPope1008'>
                       <i className='fa fa-telegram' />
                     </a>
                   </li>
-                  <li className='github'>
-                    <a title='Github' href='https://github.com/santell'>
-                      <i className='fa fa-github' />
-                    </a>
-                  </li>
-                  <li className='youtube'>
+                  <li className='linkedin'>
                     <a title='Linkedin' href='#'>
                       <i className='fa fa-linkedin' />
+                    </a>
+                  </li>
+                  <li className='skype'>
+                    <a title='Skype' href='#'>
+                      <i className='fa fa-skype' />
                     </a>
                   </li>
                 </ul>
