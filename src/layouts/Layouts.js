@@ -23,7 +23,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
     <Fragment>
       <Head>
         <link type='text/css' media='all' href={`css/skins/${color}.css`} rel='stylesheet' />{' '}
-        <title>Steven - Personal Portfolio</title>
+        <title>John - Personal Portfolio</title>
       </Head>
       <div className='page animated' style={{ animationDuration: '500ms' }}>
         <Switcher />

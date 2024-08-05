@@ -5,7 +5,7 @@ const AnimationText = () => {
       {`I'm`}{' '}
       <MovingComponent
         type='typewriter'
-        dataText={['Steven Andrychuk', 'a Full-Stack Expert', 'a Blockchain Expert', 'a Freelancer']}
+        dataText={['John Pope', 'a Full-Stack expert', 'a Blockchain expert', 'a Freelancer']}
       />
     </h1>
   );

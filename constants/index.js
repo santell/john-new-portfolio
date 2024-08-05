@@ -10,7 +10,7 @@ const CONSTANT = {
       percent: 100,
     },
     {
-      name: 'Expres',
+      name: 'Express',
       percent: 95,
     },
     {
@@ -26,7 +26,7 @@ const CONSTANT = {
       percent: 80,
     },
     {
-      name: 'Django',
+      name: 'Python',
       percent: 85,
     },
     {

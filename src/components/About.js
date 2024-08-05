@@ -13,7 +13,7 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className='title-head-subtitle'>
-          I am passionate about coding innovative web applications, and I love what I do
+          I am passionate about coding innovative web and AI applications, and I love what I do
         </span>
       </div>
       {/* Main Heading Ends */}
@@ -24,10 +24,6 @@ const About = () => {
             <div className='image-container'>
               <Image className='img-fluid d-block' src='img/dark-about.jpg' alt='' />
             </div>
-            <p className='d-block d-md-none'>
-              {`I'm`} a Full-Stack Web and Solidity developer based in Helsinki, Finland. I strives to build immersive
-              and beautiful web applications through carefully crafted code.
-            </p>
           </div>
           <div className='row col-xl-6 col-lg-6 col-md-12'>
             <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
@@ -35,13 +31,13 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>First Name</span>
-                    Steven
+                    John
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className='font-weight-600'>Last Name</span>
-                    Andrychuk
+                    Pope
                   </h6>
                 </li>
                 <li>
@@ -52,18 +48,18 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Nationality</span>
-                    Finnish
+                    United State
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className='font-weight-600'>Experience</span>7 years
+                    <span className='font-weight-600'>Experience</span>8 years
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className='font-weight-600'>Address</span>
-                    Helsinki
+                    New Kensington, PA
                   </h6>
                 </li>
               </ul>
@@ -79,36 +75,36 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Languages</span>
-                    Finnish, English
+                     English
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className='font-weight-600'>Phone</span>+1 240 342 3559
+                    <span className='font-weight-600'>Phone</span>+1 631 392 6899
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className='font-weight-600'>Email</span>
-                    <span>stevenandrychuk481@gmail.com</span>
+                    <span>Justintouchstone29@gmail.com</span>
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className='font-weight-600'>Skype</span>
-                    <span>live:.cid.6714cfd88cb67c13</span>
+                    <span className='font-weight-600'>Github</span>
+                    <a href='https://github.com/santell'>santell</a>
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className='font-weight-600'>Telegram</span>
-                    <a href='https://t.me/Godevil0122'>Godevil0122</a>
+                    <a href='https://t.me/kkdragondev1008'>Dragon Dev</a>
                   </h6>
                 </li>
               </ul>
             </div>
             <div className='col-12 resume-btn-container'>
-              <a href='steven.pdf' download className='btn btn-resume'>
+              <a href='john.pdf' download className='btn btn-resume'>
                 <span>
                   <i className='fa fa-download' />
                   download my cv
@@ -292,9 +288,9 @@ const About = () => {
                       <span className='d-block font-weight-400 uppercase'>
                         BS IN COMPUTER SCIENCE
                         <span className='separator' />
-                        <span className='font-weight-700'>University of Eastern Finland</span>
+                        <span className='font-weight-700'>Pennsylvania College of Technology</span>
                         <br />
-                        <span style={{ fontSize: '12px' }}>Joensuu, Kuopio , Eastern Finland , Finland</span>
+                        <span style={{ fontSize: '12px' }}> Williamsport, Pennsylvania, US</span>
                       </span>
                     </div>
                   </div>

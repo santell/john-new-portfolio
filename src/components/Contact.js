@@ -20,10 +20,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          'service_1bwcak6', // service id
-          'template_r3crdwk', // template id
+          'service_15gkrol', // service id
+          'template_q9auskj', // template id
           mailData,
-          'ERnw18Co_i6ftGVFO' // public api
+          'FGTVSNv5aTlQf8RJ-' // public api
         )
         .then(
           (response) => {
@@ -66,7 +66,7 @@ const Contact = () => {
                     {' '}
                     <span className='contact-title'>Phone</span>
                     <i className='fa fa-whatsapp' />
-                    <span className='contact-content'>+1 240 342 3559</span>
+                    <span className='contact-content'>+1 631 392 6899</span>
                   </h6>
                 </li>
                 <li>
@@ -75,7 +75,7 @@ const Contact = () => {
                     <span className='contact-title'>email</span>
                     <i className='fa fa-envelope-o fs-14' />
                     <a href='mailto:stevenandrychuk481@gmail.com' target='_blank' rel='noreferrer'>
-                      <span className='contact-content'>stevenandrychuk481@gmail.com</span>
+                      <span className='contact-content'>Justintouchstone29@gmail.com</span>
                     </a>
                   </h6>
                 </li>
@@ -83,33 +83,25 @@ const Contact = () => {
                   <h6 className='font-weight-600'>
                     <span className='contact-title'>Telgram</span>
                     <i className='fa fa-telegram' />
-                    <a href='https://t.me/Godevil0122'>
-                      <span className='contact-content'>GoDevil</span>
+                    <a href='https://t.me/kkdragondev1008'>
+                      <span className='contact-content'>Dragon Dev</span>
                     </a>
                   </h6>
                 </li>
-                <li>
-                  <h6 className='font-weight-600'>
-                    <span className='contact-title'>Skype </span>
-                    <i className='fa fa-skype' />
-                    <a href='skype:live:.cid.6714cfd88cb67c13?chat'>
-                      <span className='contact-content'>fancydev1002</span>
-                    </a>
-                  </h6>
-                </li>
+
               </ul>
               {/* Social Media Profiles Starts */}
               <div className='social'>
                 <h6 className='font-weight-600 uppercase'>Social Profiles</h6>
                 <ul className='list-inline social social-intro text-center p-none'>
                   <li className='facebook'>
-                    <a title='Telegram' href='https://t.me/Godevil0122'>
+                    <a title='Telegram' href='https://t.me/kkdragondev1008'>
                       <i className='fa fa-telegram' />
                     </a>
                   </li>
-                  <li className='twitter'>
-                    <a title='Skype' href='skype:live:.cid.6714cfd88cb67c13'>
-                      <i className='fa fa-skype' />
+                  <li className='github'>
+                    <a title='Github' href='https://github.com/santell'>
+                      <i className='fa fa-github' />
                     </a>
                   </li>
                   <li className='youtube'>
