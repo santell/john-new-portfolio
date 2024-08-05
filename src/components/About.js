@@ -92,13 +92,13 @@ const About = () => {
                 <li>
                   <h6>
                     <span className='font-weight-600'>Github</span>
-                    <a href='https://github.com/santell'>santell</a>
+                    <a href='https://github.com/santell'target='_blank' rel="noreferrer">santell</a>
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className='font-weight-600'>Telegram</span>
-                    <a href='https://t.me/JohnPope1008'>JohnPope1008</a>
+                    <a href='https://t.me/JohnPope1008'target='_blank' rel="noreferrer" >JohnPope1008</a>
                   </h6>
                 </li>
               </ul>

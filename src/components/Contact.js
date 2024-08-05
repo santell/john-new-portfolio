@@ -74,7 +74,7 @@ const Contact = () => {
                     {' '}
                     <span className='contact-title'>email</span>
                     <i className='fa fa-envelope-o fs-14' />
-                    <a href='mailto:stevenandrychuk481@gmail.com' target='_blank' rel='noreferrer'>
+                    <a href='mailto:Justintouchstone29@gmail.com' target='_blank' rel='noreferrer'>
                       <span className='contact-content'>Justintouchstone29@gmail.com</span>
                     </a>
                   </h6>
@@ -83,7 +83,7 @@ const Contact = () => {
                   <h6 className='font-weight-600'>
                     <span className='contact-title'>GitHub</span>
                     <i className='fa fa-github' />
-                    <a href='https://github.com/santell'>
+                    <a href='https://github.com/santell'target='_blank' rel="noreferrer">
                       <span className='contact-content'>santell</span>
                     </a>
                   </h6>
@@ -95,7 +95,7 @@ const Contact = () => {
                 <h6 className='font-weight-600 uppercase'>Social Profiles</h6>
                 <ul className='list-inline social social-intro text-center p-none'>
                   <li className='facebook'>
-                    <a title='Telegram' href='https://t.me/JohnPope1008'>
+                    <a title='Telegram' href='https://t.me/JohnPope1008'target='_blank' rel="noreferrer">
                       <i className='fa fa-telegram' />
                     </a>
                   </li>
